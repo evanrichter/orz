@@ -27,6 +27,7 @@ const WORD_SYMBOL: u16 = SYMRANK_NUM_SYMBOLS as u16 - 1;
 
 /// Limpel-Ziv matching options.
 #[repr(C)]
+#[cfg_attr(feature = "arbitrary", derive(arbitrary::Arbitrary, Debug))]
 pub struct LZCfg {
     pub match_depth: usize,
     pub lazy_match_depth1: usize,

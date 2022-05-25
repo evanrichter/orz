@@ -17,7 +17,7 @@ use crate::build::LZ_LENID_SIZE;
 use crate::build::LZ_MF_BUCKET_ITEM_SIZE;
 use crate::build::LZ_ROID_SIZE;
 use crate::build::SYMRANK_NUM_SYMBOLS;
-use crate::lz::LZCfg;
+pub use crate::lz::LZCfg;
 use crate::lz::LZDecoder;
 use crate::lz::LZEncoder;
 

@@ -1,0 +1,5 @@
+project: orz
+target: decompress
+
+cmds:
+  - cmd: /decompress

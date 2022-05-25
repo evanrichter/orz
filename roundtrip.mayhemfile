@@ -1,0 +1,5 @@
+project: orz
+target: roundtrip
+
+cmds:
+  - cmd: /roundtrip
