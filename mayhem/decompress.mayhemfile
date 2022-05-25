@@ -3,3 +3,5 @@ target: decompress
 
 cmds:
   - cmd: /decompress
+  - cmd: /decompress_no_inst @@
+    libfuzzer: false
